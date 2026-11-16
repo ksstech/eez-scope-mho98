@@ -1,4 +1,4 @@
-# eez-rigol-mho98
+# eez-scope-mho98
 
 EEZ Studio extension for the **Rigol MHO98** — 1 GHz, 4-channel, 4 GSa/s,
 12-bit oscilloscope (MHO900 series special edition) with 500 Mpts memory
@@ -9,8 +9,8 @@ Note: this extension does not yet expose the logic analyzer — see
 [ksstech/eez: docs/rigol-scope-support-plan.md](https://github.com/ksstech/eez/blob/master/docs/rigol-scope-support-plan.md)
 for the plan that adds it.
 
-Like [eez-keysight-34465a](https://github.com/ksstech/eez-keysight-34465a)
-and unlike [eez-ea-ps2k](https://github.com/ksstech/eez-ea-ps2k), this
+Like [eez-dmm-34465a](https://github.com/ksstech/eez-dmm-34465a)
+and unlike [eez-psu-ps2k](https://github.com/ksstech/eez-psu-ps2k), this
 instrument speaks **native SCPI** directly — no custom bridge process, EEZ
 Studio connects straight to the instrument.
 
@@ -30,7 +30,7 @@ Studio connects straight to the instrument.
 | `image.png` | Extension icon |
 
 Built as a zip (`python3 build-extension-zip.py` — cross-platform, stdlib
-only) and published via [GitHub Releases](https://github.com/ksstech/eez-rigol-mho98/releases)
+only) and published via [GitHub Releases](https://github.com/ksstech/eez-scope-mho98/releases)
 — not committed to the repo. New here and just want the extension
 installed? See
 [ksstech/eez: docs/installing-extensions.md](https://github.com/ksstech/eez/blob/main/docs/installing-extensions.md)
@@ -50,7 +50,7 @@ for continuous readouts):
   waveform format with the standard preamble conversion
   `V = (raw - YORigin - YREFerence) × YINCrement`.
 - `Live Meas` — continuous Vpp/Vrms/Freq/Period/Vmax/Vmin readout (persistent
-  toast, click Stop to end — same pattern as eez-ea-ps2k's `Live` shortcut).
+  toast, click Stop to end — same pattern as eez-psu-ps2k's `Live` shortcut).
 - `Vertical` — per-channel: on/off, coupling, impedance, probe, scale,
   offset, unit, bandwidth limit, invert, fine adjust.
 - `Trigger` — source, slope, level, sweep, coupling, holdoff, noise reject.

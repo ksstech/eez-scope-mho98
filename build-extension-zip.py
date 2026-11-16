@@ -30,7 +30,7 @@ EXTENSION_GLOBS = ["package.json", "*.idf", "*.sdl", "image.*"]
 
 def find_extension_dir() -> Path:
     """Locate the folder holding package.json + .idf/.sdl/image.png --
-    either the repo root itself, or an eezstudio/ subfolder (eez-ea-ps2k's
+    either the repo root itself, or an eezstudio/ subfolder (eez-psu-ps2k's
     layout, since that repo also ships a separate bridge/driver at the
     root)."""
     for candidate in (REPO_ROOT, REPO_ROOT / "eezstudio"):
