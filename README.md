@@ -25,8 +25,8 @@ Studio connects straight to the instrument.
 | Path | Purpose |
 |---|---|
 | `package.json` | Extension metadata + all 28 shortcuts |
-| `rigol_mho98.idf` | EEZ Studio instrument definition |
-| `rigol_mho98.sdl` | SCPI command/response definitions |
+| `scope_mho98.idf` | EEZ Studio instrument definition |
+| `scope_mho98.sdl` | SCPI command/response definitions |
 | `image.png` | Extension icon |
 
 Built as a zip (`python3 build-extension-zip.py` — cross-platform, stdlib

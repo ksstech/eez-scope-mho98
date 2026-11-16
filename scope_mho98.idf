@@ -3,5 +3,5 @@
     <ErrorHandling>
         <ErrorQuery command=":SYSTem:ERRor?"/>
     </ErrorHandling>
-    <File name="rigol_mho98.sdl" type="sdl"/>
+    <File name="scope_mho98.sdl" type="sdl"/>
 </ScpiConfigurations>
